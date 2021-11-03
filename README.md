@@ -1,2 +1,1 @@
-# App w/o Android Studio
-Mobile application without using the IDE "android studio"
+# Android Studio App without use Android Studio

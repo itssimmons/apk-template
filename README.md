@@ -28,6 +28,14 @@ Put this in your init.vim
 ```vim
 Plug "hsanson/vim-android"
 ```
-With [COC](https://github.com/neoclide/coc.nvim) install Java. (I personally recommend this way because with LSP you need to do things that coc do more easier)
-<br>
+With [COC](https://github.com/neoclide/coc.nvim) install Java. (I personally recommend this way because with LSP you need to do things that coc do more easier) <br>
 `:CocInstall coc-java`
+
+### CMD way
+In your terminal build the project then just install the apk and open it.
+```bash
+.\gradlew build
+.\gradlew installDebug
+```
+
+⚠️<b>(WARNING)</b> <i>I think it's a bit obvious but, before all this, you need to link your devices with ADB `adb devices` and yeah, that's it</i>⚠️

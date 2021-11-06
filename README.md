@@ -32,6 +32,9 @@ Plug "hsanson/vim-android"
 With [COC](https://github.com/neoclide/coc.nvim) install Java. (I personally recommend this way because with LSP you need to do things that coc do more easier) <br>
 `:CocInstall coc-java`
 
+## SDK set up
+*Soon...*
+
 ### CMD way
 In your terminal build the project then just install the apk and open it.
 ```bash

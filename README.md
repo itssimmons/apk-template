@@ -2,11 +2,12 @@
 Simple template for Android Studio Projects for be used in other enviroments
 
 ## Requirements
-1. Android SDK (and all its set up) (Maybe Android NDK)
+1. Android SDK (and all its set up)
 2. JDK
 3. Code editor
-4. Know how to use the terminal
-5. (Preferably use a physical device)
+4. Know how to use the terminal (Recomendation)
+5. Preferably use a physical device (Recomendation)
+6. [Android Visualizer](https://labs.udacity.com/android-visualizer/) way to see this stuff you're designing in the XML (Optial)
 
 ## How to Use
 **First**, click here > [Use this template](https://github.com/simmxns/apk-template/generate)
@@ -22,5 +23,11 @@ Open the terminal and put this inside
 ```
 And finally compile(Ctrl + F5) or debug(F5) your app
 
-### Vim way
-*Soon*
+### (Neo)Vim way
+Put this in your init.vim
+```vim
+Plug "hsanson/vim-android"
+```
+With [COC](https://github.com/neoclide/coc.nvim) install Java. (I personally recommend this way because with LSP you need to do things that coc do more easier)
+<br>
+`:CocInstall coc-java`

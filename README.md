@@ -2,7 +2,7 @@
 Simple template for Android Studio Projects for be used in other enviroments
 
 ## Requirements
-1. Android SDK [and all its set up]()
+1. Android SDK [and all its set up](https://github.com/simmxns/apk-template#sdk-set-up)
 2. JDK
 3. Code editor
 4. Know how to use the terminal (Recomendation)

@@ -7,7 +7,7 @@ Simple template for Android Studio Projects for be used in other enviroments
 3. Code editor
 4. Know how to use the terminal (Recomendation)
 5. Preferably use a physical device (Recomendation)
-6. [Android Visualizer](https://labs.udacity.com/android-visualizer/) way to see this stuff you're designing in the XML (Optial)
+6. [Android Visualizer](https://labs.udacity.com/android-visualizer/) (way to see this stuff you're designing in the XML). (Optional)
 
 ## How to Use
 **To get started,** click here > [Use this template](https://github.com/simmxns/apk-template/generate)
@@ -44,20 +44,19 @@ In your terminal build the project then just install the apk and open it.
 3) And yeah, that's it
 
 ## SDK set up
-1) Install SDK Tools package https://developer.android.com/studio<br>
-Go to the bottom of the page, then in "Command line tools only" dowload the cmdline-tools of your preference, (win in my case).
-3) Unzip the downloaded package, create a folder named "AndroidSDK" or however you want, and put the unzipped folder into it.
-4) Into cmdline-tools create other folder named "tools" and put the content of cmdline-tools into.
-5) Open a terminal on the root folder for then run this (command by command).<br>
-(Powershell)
+  * Install SDK Tools package https://developer.android.com/studio<br>
+  * Go to the bottom of the page, where it says "Command line tools only" download the cmdline-tools of your preference, (win in my case).
+  * Unzip the downloaded package, create a folder named "AndroidSDK" or however you want, and put the unzipped folder into it.
+  * Into cmdline-tools create other folder named "tools" and put the content of cmdline-tools into.
+  * Open a terminal on the root folder for then run this:<br>
 ```bash
 cd .\cmdline-tools\tools\bin
 .\sdkmanager.bat "platform-tools" "build-tools;30.0.2" "platforms;android-25"
 ```
-platforms;android-25 is android 7 change it for whatever you want [SDK Platform Release Notes](https://developer.android.com/studio/releases/platforms)<br>
-6) Replace the created folder "tools" with this version [tools@25.2.5](https://dl-ssl.google.com/android/repository/tools_r25.2.5-windows.zip) it's just for you can use the android.bat, for me is useful, downloading or not it's up to your.
-7) Set the enviroments variables.<br>
-<b>Account variables:</b><br>
+"platforms;android-25" is Android 7 change it for whatever you want [SDK Platform Release Notes](https://developer.android.com/studio/releases/platforms)</p>
+  * Replace the created folder "tools" with this version [tools@25.2.5](https://dl-ssl.google.com/android/repository/tools_r25.2.5-windows.zip) it's just for you can use the android.bat, for me is useful, downloading or not it's up to you.
+  * Set the enviroments variables:<br><br/>
+<b>Account variables:</b>
 <table>
   <tr>
     <th>Variable</th>
@@ -73,7 +72,7 @@ platforms;android-25 is android 7 change it for whatever you want [SDK Platform 
   </tr>
 </table>
 
-<b>PATH variables:</b><br>
+<b>PATH variables:</b>
 ```
 %ANDROID_HOME%\cmdline-tools\tools\bin
 %ANDROID_HOME%\emulator
@@ -81,4 +80,3 @@ platforms;android-25 is android 7 change it for whatever you want [SDK Platform 
 %ANDROID_HOME%\tools
 ```
 Considering the location of the Android SDK is at the root of disk C:\
-8) Done!

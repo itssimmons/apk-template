@@ -38,4 +38,4 @@ In your terminal build the project then just install the apk and open it.
 .\gradlew installDebug
 ```
 
-⚠️<b>(WARNING)</b> <i>I think it's a bit obvious but, before all this, you need to link your devices with ADB `adb devices` and yeah, that's it</i>⚠️
+⚠️<b>(WARNING)</b> <i>I think it's a bit obvious but, before all this, you need to link your devices with ADB</i> `adb devices` <i>and yeah, that's it</i>⚠️
